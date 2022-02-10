@@ -1,22 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Desafio1 from './components/Desafio1/Desafio1';
+import Desafio2 from './components/Desafio2/Desafio2';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Desafio1 />
+        <Desafio2 />
       </header>
     </div>
   );

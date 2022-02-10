@@ -1,0 +1,36 @@
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputText {
+    margin-top: 10px;
+}
+
+.resultado{
+    margin-top: 10px;
+}
+
+.error{
+    color: red;
+}
+
+.button {
+    align-self: center;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    color: white;
+    background-color: rgb(87, 196, 87);
+}
+
+.button:hover {
+    background-color: rgb(33, 72, 33);
+}
+
+.dataHora{
+    margin-top: 10px;
+}
