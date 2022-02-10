@@ -3,15 +3,7 @@ import React from 'react';
 
 const verifica = (text) => {
     const arrayPalavras = text.split(' ');
-    let maiorPalavra = '';
-
-    for (let index = 0; index < arrayPalavras.length; index++) {
-        const element = arrayPalavras[index];
-        if (element.length > maiorPalavra.length)
-            maiorPalavra = element;
-    }
-
-    return maiorPalavra;
+    return arrayPalavras.sort((a,b) => b.length - a.length )[0];
 
 }
 
