@@ -12,6 +12,14 @@
     margin-top: 10px;
 }
 
+.informacoes{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px #FFF solid;
+    padding: 10px;
+}
+
 .error{
     color: red;
 }
